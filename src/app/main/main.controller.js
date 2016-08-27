@@ -41,6 +41,7 @@ angular
         localidad: 'Ramos Mejia',
         fecha_des: '2016',
         genero: 'Masculino',
+        accion: 'Desaparecido',
         accion_al_des: 'Rumbo a la comisaria donde trabajaba',
         imagen: '../resources/images/1.png',
         visible: 'col-md-1'
@@ -51,6 +52,7 @@ angular
         localidad: 'Lomas de Zamora',
         fecha_des: '2012',
         genero: 'Masculino',
+        accion: 'Asesinado',
         accion_al_des: 'Iba a bailar',
         imagen: '../resources/images/2.png',
         visible: 'col-md-1'
@@ -61,6 +63,7 @@ angular
         localidad: 'Lomas de Zamora',
         fecha_des: '1994',
         genero: 'Masculino',
+        accion: 'Desaparecido',
         accion_al_des: '',
         imagen: '../resources/images/3.png',
         visible: 'col-md-1'
@@ -68,39 +71,10 @@ angular
       {
         nombre: 'Norbeto Antonio',
         apellido: 'Corbo',
-        localidad: 'Lomas de Zamora',
-        fecha_des: '2004',
-        genero: 'Masculino',
-        accion_al_des: 'Rumbo a la comisaria donde trabajaba',
-        imagen: '../resources/images/4.png',
-        visible: 'col-md-1'
-      },
-      {
-        nombre: 'Leonardo Adolfo',
-        apellido: 'Rodriguez Contreras',
         localidad: 'Mendoza',
-        fecha_des: '2015',
-        genero: 'Masculino',
-        accion_al_des: '',
-        imagen: '../resources/images/4.png',
-        visible: 'col-md-1'
-      },
-      {
-        nombre: 'Sebastian',
-        apellido: 'Bordon',
-        localidad: 'Moreno',
-        fecha_des: '1997',
-        genero: 'Masculino',
-        accion_al_des: 'Una excursión de su viaje de egresados.',
-        imagen: '../resources/images/4.png',
-        visible: 'col-md-1'
-      },
-      {
-        nombre: 'Norbeto Antonio',
-        apellido: 'Corbo',
-        localidad: 'Lomas de Zamora',
         fecha_des: '2004',
         genero: 'Masculino',
+        accion: 'Desaparecido',
         accion_al_des: 'Rumbo a la comisaria donde trabajaba',
         imagen: '../resources/images/4.png',
         visible: 'col-md-1'

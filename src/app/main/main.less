@@ -5,10 +5,21 @@ body {
   header {
     height: 33px;
     h1 {
+      display: inline-block;
       background-color: #269d80;
       color: #000;
       font-size: 14px;
       width: 203px;
+      margin: 0;
+      height: 100%;
+      padding: 9px 20px;
+    }
+    h2 {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 400;
+      width: 203px;
+      margin: 0;
       height: 100%;
       padding: 9px 20px;
     }
@@ -53,8 +64,8 @@ h3 {
   }
 }
 
-.results {
-  margin: 20px 0 0 0;
+.result-text {
+  margin-top: 20px;
   p {
     color: #269d80;
     font-size: 16px;
@@ -93,7 +104,7 @@ h3 {
 
 .top-search {
     margin-top: 100px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
 }
 
@@ -105,14 +116,36 @@ h3 {
       height: 100px;
     }
     &.result-active {
+      border: 2px solid #269d80;
       &.col-md-1 {
-        width: 16.66666666%;
+        width: 24.99999999%;
+        div {
+          width: 66.1111111%,
+        }
       }
       &.col-md-2 {
-        width: 33.33333333%;
+        width: 41.66666666%;
+        div {
+          width: 66.55555555%;
+          h4 {
+            font-size: 28px;
+          }
+          p {
+            font-size: 22px;
+          }
+          span {
+            font-size: 16px;
+            font-weight: 600;
+            color: #268d80;
+          }
+        }
+      }
+      div {
+        display: block;
+        float: right;
       }
       a {
-        width: 50%;
+        width: 33.33333333%;
       }
     }
     a {
@@ -120,6 +153,21 @@ h3 {
       width: 100%;
       height: 100%;
       text-indent: -9999px;
+    }
+
+    div {
+      display: none;
+      h4 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 10px;
+      }
+      span {
+        font-size: 12px;
+        font-weight: 600;
+        color: #268d80;
+      }
     }
 
   }

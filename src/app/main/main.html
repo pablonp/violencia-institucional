@@ -1,6 +1,7 @@
 <div class="container-fluid">
   <header>
     <h1>< Archivo / Memoria ></h1>
+    <h2>Violencia Institucional</h2>
   </header>
   <div class="row top-search">
     <div class="col-md-offset-1 col-md-10">
@@ -22,7 +23,7 @@
       <tagger tags="tags" options="optionsData[options.filter]">
     </div>
 
-    <div class="col-md-12 results" ng-if="tags.length > 0">
+    <div class="col-md-offset-1 col-md-10 result-text" ng-if="tags.length > 0">
       <p>
         <span class="victimas">{{data.victimas}}</span>
         victimas con esos filtros
@@ -40,6 +41,13 @@
         <a href="#" style="background: transparent url({{result.imagen}}) 0 0 no-repeat; background-size: cover;">
         {{result.nombre}}, {{result.apellido}}
         </a>
+        <div class="col-md-2">
+          <h4> 
+            {{result.nombre}}&nbsp;{{result.apellido}}
+          </h4>
+          <p>{{result.accion}}&nbsp;{{result.accion_al_des}}</p>
+          <span>Ver el caso</span>
+        </div>
       </div>
   </div>
   
